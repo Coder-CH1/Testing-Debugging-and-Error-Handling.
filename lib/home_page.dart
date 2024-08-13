@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     try {
       double result = 1 / 0;
-      return Text('Result: $result');
+      return Center(child: Text('Result: $result'));
     } catch (err) {
       logError(err.toString());
       return ErrorWidget(err.toString());
