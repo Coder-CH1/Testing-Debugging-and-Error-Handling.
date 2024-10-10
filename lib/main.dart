@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  HomePage(),
+      home:  const HomePage(),
     );
   }
 }
@@ -29,7 +29,7 @@ class ErrorHandling extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text(errorMessage, style: TextStyle(color: Colors.red)),
+      child: Text(errorMessage, style: const TextStyle(color: Colors.red)),
     );
   }
 }
