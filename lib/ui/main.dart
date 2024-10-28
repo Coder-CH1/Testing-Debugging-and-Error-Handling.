@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:testing_debugging_error_handling/home_page.dart';
+import 'package:testing_debugging_error_handling/UI/home_page.dart';
 
 void main() {
   runApp(const MyApp());

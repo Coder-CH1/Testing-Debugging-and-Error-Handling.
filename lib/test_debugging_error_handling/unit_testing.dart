@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'home_page.dart';
+import '../ui/home_page.dart';
 
 void main() {
   testWidgets('Result', (WidgetTester tester) async {
